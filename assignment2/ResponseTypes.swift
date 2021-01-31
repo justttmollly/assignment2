@@ -6,3 +6,8 @@
 //
 
 import Foundation
+enum ResponseType: String {
+    case chooseOnlyOneRightAnswer = "Choose the correct answer"
+    case tapImageToAnswer = "Tap on Image"
+    case slideToAnswer = "Slide the answer"
+}

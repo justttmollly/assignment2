@@ -6,3 +6,9 @@
 //
 
 import Foundation
+struct Answer {
+    
+    var text: String
+    var point: Int
+    
+}
